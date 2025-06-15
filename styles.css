@@ -1,0 +1,59 @@
+/* ========================
+   BASIC RESET
+   ------------------------
+   Remove default browser margins, paddings, and set consistent box-sizing.
+   ======================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========================
+   BODY
+   ------------------------
+   Set the overall font, text colour, background colour and line spacing.
+   ======================== */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.5;
+}
+
+/* ========================
+   LAYOUT CONTAINER
+   ------------------------
+   Centre content with a max-width and responsive margins.
+   ======================== */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+/* ========================
+   HEADER & FOOTER
+   ------------------------
+   Add background colour, centre text and padding for site header/footer.
+   ======================== */
+header, footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 1em;
+}
+
+/* ========================
+   NAVIGATION
+   ------------------------
+   Centre nav links, space them out, and style text links.
+   ======================== */
+nav {
+  text-align: center;
+  margin: 0.5em 0;
+}
+nav a {
+  margin: 0 0.5em;
+  text-decoration: none;
+  color: #333;
+}

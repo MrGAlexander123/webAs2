@@ -1,0 +1,68 @@
+/* ====================================
+   ALTERNATIVE THEME: DARK & MONOSPACE
+   ------------------------------------
+   Applies a dark background, monospace font, and light text for a different look.
+   ==================================== */
+
+/* ------------------------------------
+   BASE TYPOGRAPHY & COLOURS
+   ------------------------------------
+   Use monospace font, dark background and light text for readability.
+   ------------------------------------ */
+body {
+  font-family: 'Courier New', monospace;
+  background: #222;
+  color: #eee;
+}
+
+/* ------------------------------------
+   HEADER & FOOTER THEME
+   ------------------------------------
+   Darker background for header and footer to distinguish sections.
+   ------------------------------------ */
+header, footer {
+  background: #333;
+}
+
+/* ------------------------------------
+   LOGO STYLE
+   ------------------------------------
+   Highlight the logo with a larger size and accent colour.
+   ------------------------------------ */
+header .logo {
+  font-size: 1.8em;
+  color: #ff6347;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+/* ------------------------------------
+   NAVIGATION LINK COLOURS
+   ------------------------------------
+   Make nav links stand out with the accent colour.
+   ------------------------------------ */
+nav ul li a {
+  color: #ff6347;
+}
+
+/* ------------------------------------
+   GRID LAYOUT FOR CONTAINER
+   ------------------------------------
+   Use CSS Grid to create responsive card-like layouts.
+   ------------------------------------ */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  width: 95%;
+  margin: 1em auto;
+}
+
+/* ------------------------------------
+   HERO IMAGE BORDER
+   ------------------------------------
+   Accent borders around featured images to match theme colour.
+   ------------------------------------ */
+.hero img {
+  border: 5px solid #ff6347;
+}
